@@ -1,0 +1,10 @@
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 200px);
+    align-items: center;
+    padding: 180px 20px 20px;
+
+    &Box {
+        height: calc(100vh - 200px);
+    }
+}
