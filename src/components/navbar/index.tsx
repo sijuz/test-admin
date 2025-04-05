@@ -28,14 +28,13 @@ const NavBar = () => {
 
     const user = useSelector((state: RootState) => state.user);
 
-    const bgNavBar = useColorModeValue("white", "gray.800");
+    const bgNavBar = useColorModeValue("white", "gray.900");
 
     const handleLogout = () => {
         localStorage.removeItem("jwt");
         dispatch(logout());
         toaster.create({
             title: "Вы вышли из системы.",
-            description: "info",
             duration: 3000,
             closable: true,
         });
