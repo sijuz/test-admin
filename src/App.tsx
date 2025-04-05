@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster"
 
@@ -7,7 +6,6 @@ import LoginPage from './pages/login';
 import Home from './pages/home';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>

@@ -33,7 +33,7 @@ export const userSlice = createSlice({
       localStorage.setItem("user", JSON.stringify(userData));
       return { ...state, ...userData };
     },
-    logout(state) {
+    logout() {
       localStorage.removeItem("user");
       return initialState;
     },
