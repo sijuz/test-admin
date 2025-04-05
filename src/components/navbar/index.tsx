@@ -46,7 +46,7 @@ const NavBar = () => {
         <Center className={s.navbar} bg={bgNavBar} boxShadow="sm">
             <Layout>
                 <Flex align="center" justify="space-between" className={s.navbarFlexBlock}>
-                    <Text textStyle="3xl" fontWeight="bold">CRYPTREND</Text>
+                    <Text textStyle="3xl" fontWeight="bold" className={s.navbarLogo}>CRYPTREND</Text>
 
                     <Spacer />
 

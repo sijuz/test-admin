@@ -1,6 +1,6 @@
-import { Box, Flex, Heading, Tabs, Text } from "@chakra-ui/react";
+import { Box, Flex, Tabs, Text } from "@chakra-ui/react";
 import { useColorModeValue } from "@/components/ui/color-mode";
-import { LuUser, LuFolder, LuLogIn, LuUserPlus } from "react-icons/lu";
+import { LuLogIn, LuUserPlus } from "react-icons/lu";
 
 import s from "./login.module.scss";
 import LoginForm from "@/components/login-form";
@@ -16,10 +16,6 @@ const LoginPage = () => {
                 <Text textStyle="3xl" fontWeight="bold" mb={6}>
                     CRYPTREND
                 </Text>
-                {/* <Heading mb={4}>Добро пожаловать</Heading> */}
-                {/* <Text mb={6} color="gray.600">
-                    Войдите через Telegram, чтобы получить доступ в админку
-                </Text> */}
 
                 <Tabs.Root defaultValue="login" variant="enclosed">
                     <Tabs.List>
